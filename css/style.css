@@ -16,7 +16,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #60148c; /* Cor de fundo bege */
+  background-color: #780808; /* Cor de fundo bege */
   background-image: -moz-linear-gradient();
   
   
@@ -25,7 +25,7 @@ body {
 /* Frame do churrasco */
 .churrasco-frame {
   width: 350px;
-  border: 2px solid #f76809; /* Cor da borda inspirada em churrasco 🔥 */
+  border: 2px solid #3f38a9; /* Cor da borda inspirada em churrasco 🔥 */
   border-radius: 15px; /* Bordas arredondadas */
   box-shadow: 0px 4px 15px rgba(236, 232, 232, 0.2); /* Efeito de sombra */
   background-color: #fff; /* Fundo do frame */
@@ -36,7 +36,7 @@ body {
 
 .churrasco-frame:hover {
   transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
-  box-shadow: 0px 6px 20px rgba(228, 213, 79, 0.3); /* Sombra mais intensa */
+  box-shadow: 0px 6px 20px rgba(32, 135, 191, 0.3); /* Sombra mais intensa */
 }
 
 /* Conteúdo interno */
