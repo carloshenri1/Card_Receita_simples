@@ -1,2 +1,1 @@
-# Card_Receita_simples
-Finalizado.
+# Projeto2-Card-Receita-Simples

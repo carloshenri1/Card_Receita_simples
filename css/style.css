@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #110202; /* Cor de fundo bege */
+  background-image: -moz-linear-gradient();
+  
+  
+}
+
+/* Frame do churrasco */
+.churrasco-frame {
+  width: 350px;
+  border: 2px solid #f76809; /* Cor da borda inspirada em churrasco 🔥 */
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0px 4px 15px rgba(236, 232, 232, 0.2); /* Efeito de sombra */
+  background-color: #fff; /* Fundo do frame */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation-duration: 3s;
+}
+
+.churrasco-frame:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  box-shadow: 0px 6px 20px rgba(228, 213, 79, 0.3); /* Sombra mais intensa */
+}
+
+/* Conteúdo interno */
+.churrasco-content {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Imagem do churrasco */
+.churrasco-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #d35400; /* Linha separando a imagem */
+  display: block;
+}
+
+/* Título */
+h1 {
+  color: transparent;
+  background-clip: text;
+  background-image: url(/assets/fire-17.gif.gif);
+  background-size: cover;
+}
+
+/* Texto */
+p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
